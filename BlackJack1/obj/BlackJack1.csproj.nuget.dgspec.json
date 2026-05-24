@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thair\\Desktop\\BlackJack1\\BlackJack1\\BlackJack1.csproj": {}
+    "C:\\Users\\thair\\Desktop\\BlackJackGame\\BackJackGame\\BlackJack1\\BlackJack1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thair\\Desktop\\BlackJack1\\BlackJack1\\BlackJack1.csproj": {
+    "C:\\Users\\thair\\Desktop\\BlackJackGame\\BackJackGame\\BlackJack1\\BlackJack1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thair\\Desktop\\BlackJack1\\BlackJack1\\BlackJack1.csproj",
+        "projectUniqueName": "C:\\Users\\thair\\Desktop\\BlackJackGame\\BackJackGame\\BlackJack1\\BlackJack1.csproj",
         "projectName": "BlackJack1",
-        "projectPath": "C:\\Users\\thair\\Desktop\\BlackJack1\\BlackJack1\\BlackJack1.csproj",
+        "projectPath": "C:\\Users\\thair\\Desktop\\BlackJackGame\\BackJackGame\\BlackJack1\\BlackJack1.csproj",
         "packagesPath": "C:\\Users\\thair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thair\\Desktop\\BlackJack1\\BlackJack1\\obj\\",
+        "outputPath": "C:\\Users\\thair\\Desktop\\BlackJackGame\\BackJackGame\\BlackJack1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
