@@ -2,9 +2,9 @@ name: BuildAction
 
 on:
   push:
-    branches: [ "main", "NewFeatureBranch" ]
+    branches: [ "main", "NewFeature-Branch" ]
   pull_request:
-    branches: [ "main", "NewFeatureBranch" ]
+    branches: [ "main", "NewFeature-Branch" ]
 
 jobs:
   build:
@@ -19,20 +19,12 @@ jobs:
         with:
           dotnet-version: 9.0.x
 
-      - name: Cache NuGet packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.nuget/packages
-          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
-          restore-keys: |
-            ${{ runner.os }}-nuget-
-
       - name: Restore dependencies
-        run: dotnet restore ./BlackJackGame/BlackJackGame.csproj
+        run: dotnet restore ./BlackJack1/BlackJack1.csproj
 
       - name: Build project
-        run: dotnet build ./BlackJackGame/BlackJackGame.csproj --configuration Release --no-restore
+        run: dotnet build ./BlackJack1/BlackJack1.csproj --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test ./BlackJackGame.Tests/BlackJackGame.Tests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test ./BlackJackGame.Tests/BlackJackGame.Tests.csproj --no-build --verbosity normal
 
